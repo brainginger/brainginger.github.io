@@ -1,0 +1,94 @@
+baseURL: https://brainginger.github.io/new
+title: GINGER
+defaultContentLanguage: 'en'
+theme: eternity
+googleAnalytics: 'G-974WD1S4FM'
+
+params:
+  image: /images/banner.png
+  logo: logo.png
+  subtitle: Eternity is a minimalist Hugo theme designed for portfolio sites with a fresh feel. # todo: change default subtitle for your website.
+  copyright: All rights reserved.
+  author: Ginger Chiang
+  dontShowSource: true
+  portfolio:
+    columns:
+      desktop:
+        nature: 4
+        archive: 6
+        people: 2
+        default: 3
+      mobile:
+        default: 2
+        archive: 3
+        people: 1
+  socials:
+    - icon: 'far fa-envelope fa-lg'
+      url: 'mailto:comingmissing@gmail.com'
+      landing: true
+    # - icon: 'fab fa-github fa-lg'
+    #   url: 'https://github.com/boratanrikulu/eternity'
+    #   landing: true
+    # - icon: 'fab fa-instagram fa-lg'
+    #   url: 'https://instagram.bora.sh/eternity'
+    # - icon: 'fab fa-linkedin-in fa-lg'
+    #   url: 'https://linkedin.bora.sh/in/eternity'
+  homepage: "/about" # homepage link, mostly same with menu.main[0]
+  specialPages:
+    - work
+    - archive
+  bypassWelcomePage: true # redirects "/" to "homepage" when it's true.
+  disableWelcomePageBackground: false # disables the background image on the homepage
+  plausible: '' # todo: set your plausible id.
+  disableRadius: false
+  moveIt: false  # Moves Title and Meta info down, only visible when scroll.
+  disableAlwaysResize: false
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  work: ":filename/"
+
+menu:
+  main:
+    - name: about
+      url: /about/
+      weight: 1
+    - name: 動畫
+      url: /tags/motion-graphic/
+      weight: 2
+    - name: 資訊圖表
+      url: /tags/anime/
+      weight: 3
+    - name: 插畫
+      url: /tags/anime/
+      weight: 4
+    - name: Banner
+      url: /tags/banner/
+      weight: 5
+    - name: 手繪圖文
+      url: /tags/anime/
+      weight: 6
+    - name: 平面設計
+      url: /tags/VisualDesign/
+      weight: 7
+    - name: 商品設計
+      url: /tags/anime/
+      weight: 8
+    # - name: people
+    #   url: /tags/people/
+    #   weight: 2
+    # - name: nature
+    #   url: /tags/nature/
+    #   weight: 3
+    - name: archive
+      url: /tags/archive/
+      weight: 9
+    #   動畫 ｜ 資訊圖表 ｜ 插畫 ｜ Banner ｜ 手繪圖文 ｜ 平面設計 ｜ 商品設計

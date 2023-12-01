@@ -1,6 +1,7 @@
 ---
 images:
 - /images/about.png
+- /images/profile-picture.jpg
 title: about
 url: about
 hideTitle: true
@@ -10,8 +11,6 @@ hideDate: true
 
 
 <div align="center">
-
-![](/profile-picture.jpg)
 
  <p>
  您好，我叫做姜禹安 Ginger，在「內容媒體產業」任職 11 年，擁有豐富的視覺設計經驗。

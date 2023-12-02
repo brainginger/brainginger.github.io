@@ -2,7 +2,7 @@
 weight: 1
 images:
 - /images/motion-graphic/ckmates.png
-title: 還在數位轉型陣痛期？混合雲一條龍服務，協助企業全面數據化
+title: 混合雲一條龍服務，協助企業全面數據化
 date: 2022-04-08
 tags:
 - motion-graphic
@@ -13,7 +13,7 @@ hideExif: true
 
 ## Article Link
 
-[還在數位轉型陣痛期？混合雲一條龍服務，協助企業全面數據化](https://www.thenewslens.com/feature/ckmates/140625)
+[混合雲一條龍服務，協助企業全面數據化](https://www.thenewslens.com/feature/ckmates/140625)
 
 ## Video
 

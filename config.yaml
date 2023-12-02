@@ -7,7 +7,7 @@ googleAnalytics: 'G-974WD1S4FM'
 params:
   image: /images/banner.png
   logo: logo.png
-  subtitle: Eternity is a minimalist Hugo theme designed for portfolio sites with a fresh feel. # todo: change default subtitle for your website.
+  subtitle: 
   copyright: All rights reserved.
   author: Ginger Chiang
   dontShowSource: true
@@ -35,7 +35,7 @@ params:
     #   url: 'https://linkedin.bora.sh/in/eternity'
   homepage: "/about" # homepage link, mostly same with menu.main[0]
   specialPages:
-    - work
+    - about
     - archive
   bypassWelcomePage: true # redirects "/" to "homepage" when it's true.
   disableWelcomePageBackground: false # disables the background image on the homepage
@@ -54,7 +54,7 @@ taxonomies:
   tag: tags
 
 permalinks:
-  work: ":filename/"
+  about: ":filename/"
 
 menu:
   main:
@@ -65,7 +65,7 @@ menu:
       url: /tags/motion-graphic/
       weight: 2
     - name: 資訊圖表
-      url: /tags/anime/
+      url: /tags/infographics/
       weight: 3
     - name: 插畫
       url: /tags/anime/
@@ -82,12 +82,6 @@ menu:
     - name: 商品設計
       url: /tags/anime/
       weight: 8
-    # - name: people
-    #   url: /tags/people/
-    #   weight: 2
-    # - name: nature
-    #   url: /tags/nature/
-    #   weight: 3
     - name: archive
       url: /tags/archive/
       weight: 9

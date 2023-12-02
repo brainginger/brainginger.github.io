@@ -14,7 +14,7 @@ tags:
 # hideTitle: true
 # hideDate: true
 hideExif: true
-multipleColumn: true
+# multipleColumn: true
 ---
 
 ## Article Link

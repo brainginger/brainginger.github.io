@@ -8,12 +8,12 @@ images:
 - /images/infographics/sdgs/sdgs-5.png
 - /images/infographics/sdgs/sdgs-6.png
 - /images/infographics/sdgs/sdgs-7.png
-- /images/infographics/sdgs/sdgs-8.png
+- /images/infographics/sdgs/sdgs-8.jpeg
 - /images/infographics/sdgs/sdgs-9.png
 title: SDGs合作專案
 date: 2022-08-01
 tags:
-- about # homepage
+# - about # homepage
 - archive # all posts
 - infographics
 # hideTitle: true

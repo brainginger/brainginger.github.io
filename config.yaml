@@ -70,22 +70,21 @@ menu:
     - name: 插畫
       url: /tags/digital-drawing/
       weight: 4
-    - name: Banner
-      url: /tags/banner/
+    - name: 平面設計
+      url: /tags/graphic-design/
       weight: 5
-    - name: 手繪圖文
-      url: /tags/drawing-projects/
+    - name: 一圖看懂
+      url: /tags/one-picture/
       weight: 6
-    # - name: 平面設計
-    #   url: /tags//
-    #   weight: 7
+    - name: 商品設計
+      url: /tags/product-design/
+      weight: 7
     # - name: 商品設計
     #   url: /tags//
     #   weight: 8
-    - name: tags
-      url: /tags/
-      weight: 9
-    - name: archive
-      url: /tags/archive/
-      weight: 10
-    #   動畫 ｜ 資訊圖表 ｜ 插畫 ｜ Banner ｜ 手繪圖文 ｜ 平面設計 ｜ 商品設計
+    # - name: tags
+    #   url: /tags/
+    #   weight: 9
+    # - name: archive
+    #   url: /tags/archive/
+    #   weight: 10

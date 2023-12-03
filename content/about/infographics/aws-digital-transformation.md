@@ -9,7 +9,7 @@ images:
 title: AWS合作專案
 date: 2020-12-03
 tags:
-- about # homepage
+# - about # homepage
 - archive # all posts
 - infographics
 # hideTitle: true

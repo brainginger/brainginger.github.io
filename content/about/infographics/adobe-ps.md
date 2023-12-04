@@ -20,4 +20,4 @@ hideExif: true
 
 ## Article Link
 
-[Photoshop教學解壓縮：化妝、表情都可以AI一鍵調整！5個你不能不會的實用功能大集合](https://www.thenewslens.com/feature/adobe-photoshop/170788)
+##### [Photoshop教學解壓縮：化妝、表情都可以AI一鍵調整！5個你不能不會的實用功能大集合](https://www.thenewslens.com/feature/adobe-photoshop/170788)　<button class="right button is-dark is-small" onclick="window.location.href='https://www.thenewslens.com/feature/adobe-photoshop/170788'">READ MORE ＞</button>

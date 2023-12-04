@@ -20,4 +20,4 @@ hideExif: true
 
 ## Article Link
 
-[數位轉型刻不容緩——AWS幫助企業走入數據時代、啟動資料飛輪，創造千億產值](https://www.thenewslens.com/feature/aws-2020-tldg/144005)
+##### [數位轉型刻不容緩——AWS幫助企業走入數據時代、啟動資料飛輪，創造千億產值](https://www.thenewslens.com/feature/aws-2020-tldg/144005)　<button class="right button is-dark is-small" onclick="window.location.href='https://www.thenewslens.com/feature/aws-2020-tldg/144005'">READ MORE ＞</button>

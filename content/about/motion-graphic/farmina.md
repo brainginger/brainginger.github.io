@@ -14,7 +14,7 @@ hideExif: true
 
 ## Article Link
 
-[為什麼毛小孩這麼愛吃法米納？獨特四道關鍵生產程序打造新鮮美味](https://www.cool3c.com/article/175791)
+##### [為什麼毛小孩這麼愛吃法米納？獨特四道關鍵生產程序打造新鮮美味](https://www.cool3c.com/article/175791)　<button class="right button is-dark is-small" onclick="window.location.href='https://www.cool3c.com/article/175791'">READ MORE ＞</button>
 
 ## Video
 

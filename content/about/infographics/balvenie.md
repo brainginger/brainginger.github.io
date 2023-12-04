@@ -20,4 +20,4 @@ hideExif: true
 
 ## Article Link
 
-[百富推薦——如果我們的生命是威士忌｜百富匠人的一心一藝](https://www.thenewslens.com/article/152389)
+##### [百富推薦——如果我們的生命是威士忌｜百富匠人的一心一藝](https://www.thenewslens.com/article/152389)　<button class="right button is-dark is-small" onclick="window.location.href='https://www.thenewslens.com/article/152389'">READ MORE ＞</button>

@@ -19,4 +19,4 @@ hideExif: true
 
 ## Article Link
 
-[投資救地球？「ESG因子」讓企業改造體質變環保——富蘭克林坦伯頓全球氣候變遷基金](https://www.thenewslens.com/article/147690)
+##### [投資救地球？「ESG因子」讓企業改造體質變環保——富蘭克林坦伯頓全球氣候變遷基金](https://www.thenewslens.com/article/147690)　<button class="right button is-dark is-small" onclick="window.location.href='https://www.thenewslens.com/article/147690'">READ MORE ＞</button>

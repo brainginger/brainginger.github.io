@@ -20,4 +20,4 @@ hideExif: true
 
 ## Article Link
 
-[走過波動、邁入 2022 第二季 投資如何追趨勢？致勝關鍵在 AI](https://www.cool3c.com/article/175331)
+##### [走過波動、邁入 2022 第二季 投資如何追趨勢？致勝關鍵在 AI](https://www.cool3c.com/article/175331)　<button class="right button is-dark is-small" onclick="window.location.href='https://www.cool3c.com/article/175331'">READ MORE ＞</button>

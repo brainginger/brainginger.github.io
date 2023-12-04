@@ -21,4 +21,4 @@ hideExif: true
 
 ## Article Link
 
-[台灣人投保率還能更高？市調：近38%人網購保險，保險電商有望刷新投保率](https://www.thenewslens.com/article/136379)
+##### [台灣人投保率還能更高？市調：近38%人網購保險，保險電商有望刷新投保率](https://www.thenewslens.com/article/136379)　<button class="right button is-dark is-small" onclick="window.location.href='https://www.thenewslens.com/article/136379'">READ MORE ＞</button>

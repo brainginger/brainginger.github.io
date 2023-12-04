@@ -19,4 +19,4 @@ hideExif: true
 
 ## Article Link
 
-[寧用假名也要下場的賽車手社長，TOYOTA GR YARIS展現豐田章男的野望](https://www.thenewslens.com/article/154497)
+##### [寧用假名也要下場的賽車手社長，TOYOTA GR YARIS展現豐田章男的野望](https://www.thenewslens.com/article/154497)　<button class="right button is-dark is-small" onclick="window.location.href='https://www.thenewslens.com/article/154497'">READ MORE ＞</button>

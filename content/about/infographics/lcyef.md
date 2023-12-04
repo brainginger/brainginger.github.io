@@ -19,4 +19,4 @@ hideExif: true
 
 ## Article Link
 
-[李長榮教育基金會的一封英雄帖：加入這場無限賽局，獲得最高六萬元的獎學金](https://www.thenewslens.com/article/150808)
+##### [李長榮教育基金會的一封英雄帖：加入這場無限賽局，獲得最高六萬元的獎學金](https://www.thenewslens.com/article/150808)　<button class="right button is-dark is-small" onclick="window.location.href='https://www.thenewslens.com/article/150808'">READ MORE ＞</button>

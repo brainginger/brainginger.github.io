@@ -1,7 +1,8 @@
 ---
 # images not working in _index.md
-title: about
+title: About
 url: about
+# hideTitle: true
 ---
 
 ![](../profile.png)

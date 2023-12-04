@@ -7,7 +7,7 @@ googleAnalytics: 'G-974WD1S4FM'
 params:
   image: /images/banner.png
   logo: logo.png
-  subtitle: 
+  subtitle: Ginger's portfolio
   copyright: All rights reserved.
   author: Ginger Chiang
   dontShowSource: true

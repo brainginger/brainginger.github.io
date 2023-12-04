@@ -58,7 +58,7 @@ permalinks:
 
 menu:
   main:
-    - name: about
+    - name: About
       url: /about/
       weight: 1
     - name: 動畫
@@ -67,21 +67,18 @@ menu:
     - name: 資訊圖表
       url: /tags/infographics/
       weight: 3
-    - name: 插畫
-      url: /tags/digital-drawing/
-      weight: 4
     - name: 平面設計
       url: /tags/graphic-design/
-      weight: 5
+      weight: 4
     - name: 一圖看懂
       url: /tags/one-picture/
+      weight: 5
+    - name: 插畫
+      url: /tags/digital-drawing/
       weight: 6
     - name: 商品設計
       url: /tags/product-design/
       weight: 7
-    # - name: 商品設計
-    #   url: /tags//
-    #   weight: 8
     # - name: tags
     #   url: /tags/
     #   weight: 9

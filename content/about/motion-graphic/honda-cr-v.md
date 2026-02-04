@@ -1,12 +1,12 @@
 ---
 weight: 1
 images:
-- /images/motion-graphic/honda-cr-v.png
+  - /images/motion-graphic/honda-cr-v.png
 title: Honda All-New CR-V憑藉關鍵進化精益求精！
 date: 2023-10-12
 tags:
-- archive # all posts
-- motion-graphic
+  - archive # all posts
+  - motion-graphic
 # hideTitle: true
 # hideDate: true
 hideExif: true

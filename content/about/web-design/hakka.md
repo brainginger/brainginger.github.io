@@ -1,14 +1,14 @@
 ---
 weight: 10
 images:
-  - /images/web-design/hakka.jpg
+  - /images/web-design/hakka.png
 title: 來上客 - 12 年國教客語文學習入口網站
 date:
 tags:
   # - about # homepage
   - archive # all posts
   - web-design
-# hideTitle: true
+hideTitle: true
 # hideDate: true
 hideExif: true
 # multipleColumn: true

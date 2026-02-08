@@ -1,8 +1,8 @@
 ---
 weight: 1
 images:
-- /images/web-design/girls_travel.png
-title: Girls Travel
+- /images/web-design/kiehls.png
+title: Kiehls
 date: 
 tags:
 # - about # homepage

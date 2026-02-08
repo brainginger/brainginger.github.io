@@ -1,7 +1,7 @@
 ---
 weight: 1
 images:
-  - /images/web-design/girl_style_vg_award.jpg
+  - /images/web-design/girl_style_vg_award.png
 title: GirlStyleMY ViralGlow Award 2025
 date:
 tags:

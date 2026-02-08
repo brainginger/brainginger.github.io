@@ -1,14 +1,14 @@
 ---
 weight: 1
 images:
-- /images/graphic-design/tsubuporon.png
-title: Tsubuporon
-date: 
+  - /images/graphic-design/tsubuporon.png
+title:
+date:
 tags:
-# - about # homepage
-- archive # all posts
-- graphic-design
-# hideTitle: true
+  # - about # homepage
+  - archive # all posts
+  - graphic-design
+hideTitle: true
 # hideDate: true
 hideExif: true
 # multipleColumn: true

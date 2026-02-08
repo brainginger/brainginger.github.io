@@ -8,7 +8,7 @@ tags:
 # - about # homepage
 - archive # all posts
 - graphic-design
-# hideTitle: true
+hideTitle: true
 # hideDate: true
 hideExif: true
 # multipleColumn: true

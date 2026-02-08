@@ -1,14 +1,14 @@
 ---
 weight: 1
 images:
-- /images/graphic-design/eucerin.png
-title: Eucerin
-date: 
+  - /images/graphic-design/eucerin.png
+title:
+date:
 tags:
-# - about # homepage
-- archive # all posts
-- graphic-design
-# hideTitle: true
+  # - about # homepage
+  - archive # all posts
+  - graphic-design
+hideTitle: true
 # hideDate: true
 hideExif: true
 # multipleColumn: true

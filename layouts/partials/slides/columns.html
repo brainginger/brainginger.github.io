@@ -1,0 +1,78 @@
+<!--
+    Site-level override of themes/eternity/layouts/partials/slides/columns.html.
+
+    Distributes posts into columns by height (masonry-style) instead of round-robin:
+    each post goes into the currently shortest column, measured by image aspect ratio.
+    Posts keep the weight-desc order used by slides/slides.html, so loopCount stays
+    aligned with the slider index.
+-->
+
+{{ $posts := .ctx.Page.Pages }}
+{{ $posts = sort $posts ".Params.weight" "desc" }}
+{{ if not $posts }}
+	{{ $posts = .ctx.Site.RegularPages }}
+	{{ $posts = sort $posts ".Params.weight" "desc" }}
+{{ end }}
+{{ $postsCount := len ($posts) }}
+
+{{ range $device := (slice "desktop" "mobile") }}
+	{{ $scratch := $.portfolioScratch }}
+	{{ $fallback := 3 }}
+	{{ if eq $device "mobile" }}
+		{{ $scratch = $.portfolioMobileScratch }}
+		{{ $fallback = 2 }}
+	{{ end }}
+
+	{{ $columnsCount := 0 }}
+	{{ $config := index $.ctx.Site.Params.portfolio.columns $device }}
+	{{ if $config }}
+		{{ $columnsCount = index $config $.ctx.Params.Title }}
+		{{ if not $columnsCount }}
+			{{ $columnsCount = index $config "default" }}
+		{{ end }}
+	{{ end }}
+	{{ if not $columnsCount }}
+		{{ $columnsCount = $fallback }}
+	{{ end }}
+	{{ if lt $postsCount $columnsCount }}
+		{{ $columnsCount = $postsCount }}
+	{{ end }}
+	{{ $scratch.Set "columnsCount" $columnsCount }}
+	{{ $scratch.Set "posts" $posts }}
+
+	{{ $heights := newScratch }}
+	{{ range $index, $num := (seq $columnsCount) }}
+		{{ $heights.Set (printf "%d" $index) 0.0 }}
+	{{ end }}
+
+	{{ range $i, $post := $posts }}
+		{{ $height := 0.0 }}
+		{{ if $post.Params.images }}
+			{{ $imgScratch := newScratch }}
+			{{ partial "helpers/get" (dict "scratch" $imgScratch "row" $post.Params) }}
+			{{ $img := $imgScratch.Get "img" }}
+			{{ $height = div (float $img.Height) $img.Width }}
+			{{ with $img.Exif }}
+				{{ if in (slice 6 8) .Tags.Orientation }}
+					{{ $height = div (float $img.Width) $img.Height }}
+				{{ end }}
+			{{ end }}
+			{{ if $post.Title }}
+				<!-- approximate figcaption height relative to column width -->
+				{{ $height = add $height 0.1 }}
+			{{ end }}
+		{{ end }}
+
+		{{ $target := 0 }}
+		{{ range $index, $num := (seq $columnsCount) }}
+			{{ if lt ($heights.Get (printf "%d" $index)) ($heights.Get (printf "%d" $target)) }}
+				{{ $target = $index }}
+			{{ end }}
+		{{ end }}
+
+		{{ $heights.Set (printf "%d" $target) (add ($heights.Get (printf "%d" $target)) $height) }}
+		{{ $column := $scratch.Get (printf "%d" $target) }}
+		{{ $column = $column | append (dict "post" $post "loopCount" (add $i 1)) }}
+		{{ $scratch.Set (printf "%d" $target) $column }}
+	{{ end }}
+{{ end }}
